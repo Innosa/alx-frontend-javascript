@@ -1,9 +1,8 @@
-const teacher: Teacher = {
-  firstName: "Kama",
-  lastName: "James",
-  fullTimeEmployee: false,   
-  location: "Lagos",         
-  yearsOfExperience: 5, 
-  contract: false,       
-};
-const teachers: Teacher[] = [teacher];
+﻿interface Teacher {
+  readonly firstName: string;
+  readonly lastName: string;
+  fullTimeEmployee: boolean;
+  yearsOfExperience?: number;
+  location: string;
+  [propName: string]: any;
+}

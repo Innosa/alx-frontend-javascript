@@ -5,5 +5,4 @@ interface Teacher {
   yearsOfExperience?: number;         
   location: string;             
 
-  [key: string]: any;
 }

@@ -17,4 +17,4 @@ const teacher: Teacher = {
   contract: false,
 };
 
-const TeacherList:Teacher[]= [teacher];
+const TeachersList:Teacher[]= [teacher];
